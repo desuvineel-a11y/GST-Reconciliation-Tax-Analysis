@@ -53,14 +53,3 @@ This project uses Python-cleaned GST sales, purchase, customer, and product data
 ## Notes and Limitations
 - Purchase-side ITC visuals are based on `purchases_clean`; the invoice-date slicer currently filters sales-side visuals and does not automatically apply the same date selection to the purchase-side ITC visual. Treat those figures as purchase totals unless the model is updated to support aligned date filtering.
 - This is an analytics project for learning and review, not tax or legal advice. Final GST decisions should be verified against the underlying records and applicable requirements.
-
-## Suggested Repository Structure
-```text
-GST-Reconciliation-Tax-Analysis/
-├── README.md
-├── Mini project.pbix
-├── data/
-│   └── (add cleaned datasets only if they can be shared safely)
-└── screenshots/
-    └── dashboard.png
-```
