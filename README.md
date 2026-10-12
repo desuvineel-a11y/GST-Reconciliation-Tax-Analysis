@@ -64,11 +64,3 @@ GST-Reconciliation-Tax-Analysis/
 └── screenshots/
     └── dashboard.png
 ```
-
-## GitHub Publishing Checklist
-- [ ] Create a repository named `GST-Reconciliation-Tax-Analysis`.
-- [ ] Add this `README.md`.
-- [ ] Upload the Power BI `.pbix` file if its size is within GitHub's file limits; otherwise use Git LFS or provide a separate share link.
-- [ ] Add a dashboard screenshot in a `screenshots` folder and embed it near the top of this README.
-- [ ] Do not upload confidential or personally identifiable invoice/customer data.
-- [ ] Add a short repository description: **Interactive Power BI dashboard for GST sales analysis, ITC tracking, net GST liability review, and overdue receivables monitoring.**
